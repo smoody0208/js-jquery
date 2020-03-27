@@ -12,19 +12,15 @@ $(document).ready(function() {
     if (devInput === "front-end") {
       $("#a-js").show();
     } else if (fieldInput === "web" && comInput === "startup" && platInput === "apple" && easyInput === "no") {
-      $("#a-ruby").show();
-      $("#a-js").hide();
+      $("#a-ruby").show().siblings().hide("#a-ruby");
     } else if (fieldInput === "web" && comInput === "established" && platInput === "apple" & easyInput === "no") {
-      $("#a-ruby").show();
-      $("#a-js").hide();
+      $("#a-ruby").show().siblings().hide("#a-ruby");
     } else if (fieldInput === "web" && comInput === "large" && platInput === "windows" && easyInput === "no") {
-      $("#a-csharp").show();
-      $("#a-js").hide(); 
+      $("#a-csharp").show().siblings().hide("#a-csharp");
     } else if (fieldInput === "game" && comInput === "large" && platInput === "windows" && easyInput === "no") {
-      $("#a-csharp").show();
-      $("#a-js").hide(); 
+      $("#a-csharp").show().siblings().hide("#a-csharp");
     } else {
-      $("#nope").show();
+      $("#nope").show().sibilings().hide("#nope");
     }
     event.preventDefault();
   });
