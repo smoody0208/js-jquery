@@ -14,11 +14,11 @@ _This webpage was created for our second independent project at Epicodus. The we
 * _Open Index.html in Virtual Studio Code (or your text editor of choice)_
 * _Create your own repository & push new changes to GitHub_
 
-You may also visit:
+You may also visit: https://smoody0208.github.io/js-jquery/
 
 ## Known Bugs
 
-_Drop down menu in Navbar does not work_
+_None known, if you run into any bugs please contact Spencer Moody at spencer.moody@outlook.com_
 
 ## Support and contact details
 
@@ -31,6 +31,8 @@ _If you have any questions please feel free to contact Spencer. Make any changes
 * _CSS_
 * _BootStrap_
 * _Visual Studio Code_
+* _JavaScript_
+* _jQuery
 
 ### License
 
