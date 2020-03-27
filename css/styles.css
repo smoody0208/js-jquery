@@ -26,6 +26,7 @@
   color: rgb(75, 76, 126);
   font-family: monospace;
   font-weight: bold;
+  background-color: rgba(128, 128, 128, 0.521);
 }
 
 .container-jumbotron p{
@@ -33,6 +34,9 @@
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
-  
-  
+  background-color: rgba(128, 128, 128, 0.521) ;
+}
+
+.container{
+  align: center;
 }
