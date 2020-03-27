@@ -8,95 +8,95 @@
   <title>Epicodus Programming Language Suggester</title>
 </head>
 <body>
-  <div class="container-jumbotron">
-    <h1>Find Your Perfect Programming Language</h1>
-    <p>Take this short quiz to discover the perfect programming language for you!</p>
-  </div>
-  <div class="container">
-    <form id="quiz">
-      <div class="form-group">
-        <label for="nameInput">Name</label>
-        <input class="form-control" id="nameInput" type="text"></input>
-      </div>
-
-      <div class="form-group">
-        <label for="development">Are you interested in front-end or back-end development</label>
-        <select class="form-control" id="development">
-          <option value="back-end">Back-End Development</option>
-          <option value="front-end">Front-End Development</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="field">Which platform or field would you like to work in?</label>
-        <select class="form-control" id="field">
-          <option value="web">Web Development</option>
-          <option value="mobile">Mobile</option>
-          <option value="game">Gaming</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="company">What kind of company do you want to work for?</label>
-        <select class="form-control" id="company">
-          <option value="large">A large well established company</option>
-          <option value="startup" >A startup</option>
-          <option value="established">Somewhere small but well established</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="platform">Are you interested in Windows based development or Apple based development?</label>
-        <select class="form-control" id="platform">
-          <option value="windows">Windows</option>
-          <option value="apple">Apple</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="easy">Are you looking for something easy</label>
-        <select class="form-control" id="easy">
-          <option value="yes">Yes! I want to learn it overnight</option>
-          <option value="no">No! I like a challenge</option>
-        </select>
-      </div>
-
-      <button type="submit" class="btn btn-danger">Submit!</button>
-    </form>
-
-    <div id="a-ruby">
-      <h1>Congratulations, <span class="name"></span>based on your answers the best course for you would be Ruby!</h1>
-      <h2>Why is this the best track for you?</h2>
-      <ul>
-        <li>Ruby is a scripting language built from the ground up for use in front end and back end web development </li>
-        <li>Ruby on Rails is strongly associated with startups</li>
-      </ul>
+    <div class="container-jumbotron">
+      <h1>Find Your Perfect Programming Language</h1>
+      <p>Take this short quiz to discover the perfect programming language for you!</p>
     </div>
+    <div class="container">
+      <form id="quiz">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input class="form-control" id="nameInput" type="text"></input>
+        </div>
 
-    <div id="a-js">
-      <h1>Congratulations, <span class="name"></span>based on your answers the best course for you would be JavaScript</h1>
-      <h2>Why is this the best track for you?</h2>
-      <ul>
-        <li>JavaScript allows you to build interactive websites.</li>
-        <li>If you learn JavaScript you can use it in game development.</li>
-      </ul>
-    </div>
+        <div class="form-group">
+          <label for="development">Are you interested in front-end or back-end development</label>
+          <select class="form-control" id="development">
+            <option value="back-end">Back-End Development</option>
+            <option value="front-end">Front-End Development</option>
+          </select>
+        </div>
 
-    <div id="a-csharp">
-      <h1>Congratulations, <span class="name"></span>based on your answers the best course for you would be C#</h1>
-      <h2>Why is this the best track for you?</h2>
-      <ul>
-        <li>C# is very popular amongst larger established companies</li>
-        <li>Used often in Microsoft</li>
-      </ul>
-    </div>
+        <div class="form-group">
+          <label for="field">Which platform or field would you like to work in?</label>
+          <select class="form-control" id="field">
+            <option value="web">Web Development</option>
+            <option value="mobile">Mobile</option>
+            <option value="game">Gaming</option>
+          </select>
+        </div>
 
-    <div id="nope">
-      <h1>Oh no! <span class="name"></span>based on your answers you probably shouldnt do programming</h1>
-    </div>
+        <div class="form-group">
+          <label for="company">What kind of company do you want to work for?</label>
+          <select class="form-control" id="company">
+            <option value="large">A large well established company</option>
+            <option value="startup">A startup</option>
+            <option value="established">Somewhere small but well established</option>
+          </select>
+        </div>
 
-  </div> 
+        <div class="form-group">
+          <label for="platform">Are you interested in Windows based development or Apple based development?</label>
+          <select class="form-control" id="platform">
+            <option value="windows">Windows</option>
+            <option value="apple">Apple</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="easy">Are you looking for something easy</label>
+          <select class="form-control" id="easy">
+            <option value="yes">Yes! I want to learn it overnight</option>
+            <option value="no">No! I like a challenge</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+
+      <div id="a-ruby">
+        <h1>Congratulations, <span class="name"></span>based on your answers the best course for you would be Ruby!</h1>
+        <h2>Why is this the best track for you?</h2>
+        <ul>
+          <li>Ruby is a scripting language built from the ground up for use in front end and back end web development </li>
+          <li>Ruby on Rails is strongly associated with startups</li>
+        </ul>
+      </div>
+
+      <div id="a-js">
+        <h1>Congratulations, <span class="name"></span>based on your answers the best course for you would be JavaScript</h1>
+        <h2>Why is this the best track for you?</h2>
+        <ul>
+          <li>JavaScript allows you to build interactive websites.</li>
+          <li>If you learn JavaScript you can use it in game development.</li>
+        </ul>
+      </div>
+
+      <div id="a-csharp">
+        <h1>Congratulations, <span class="name"></span>based on your answers the best course for you would be C#</h1>
+        <h2>Why is this the best track for you?</h2>
+        <ul>
+          <li>C# is very popular amongst larger established companies</li>
+          <li>Used often in Microsoft</li>
+        </ul>
+      </div>
+
+      <div id="nope">
+        <h1>Oh no! <span class="name"></span>based on your answers you probably shouldnt do programming</h1>
+      </div>
+
+    </div> 
 
   
-</body>
+  </body>
 </html>
